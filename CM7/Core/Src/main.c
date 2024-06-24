@@ -323,7 +323,7 @@ Error_Handler();
 	Tx_buf_len = sprintf(Tx_buf, "\r\n\r\nSTM32 X-Cube-AI test\r\n");
 	HAL_UART_Transmit(&huart1, (uint8_t *)Tx_buf, Tx_buf_len, 100);
 
-	ai_u8 activations[AI_NETWORK_DATA_ACTIVATIONS_SIZE+8192];//+8192是为了避免
+	ai_u8 activations[AI_NETWORK_DATA_ACTIVATIONS_SIZE+8192];//+8192是为了避免内存错误，详见课程报告
 	
 	 /* AI buffer IO handlers */
 	ai_buffer *ai_input;
