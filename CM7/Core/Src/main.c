@@ -467,7 +467,7 @@ Error_Handler();
 				if(max_index<10)
 					my_result[0] = '0' + (char)max_index;
 				else
-					my_result[0] = 'A' + (char)max_index;
+					my_result[0] = 'A' + (char)(max_index-10);
 			
 				printf("%s",my_result);
 				UTIL_LCD_SetFont(&Font24);
