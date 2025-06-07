@@ -7,7 +7,7 @@ touchscreen_respawn_cm7\stm32h7xx_it.o: ../Drivers/STM32H7xx_HAL_Driver/Inc/stm3
 touchscreen_respawn_cm7\stm32h7xx_it.o: ../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h7xx.h
 touchscreen_respawn_cm7\stm32h7xx_it.o: ../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h747xx.h
 touchscreen_respawn_cm7\stm32h7xx_it.o: ../Drivers/CMSIS/Include/core_cm7.h
-touchscreen_respawn_cm7\stm32h7xx_it.o: E:\Keil v5\ARM\ARMCC\Bin\..\include\stdint.h
+touchscreen_respawn_cm7\stm32h7xx_it.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
 touchscreen_respawn_cm7\stm32h7xx_it.o: ../Drivers/CMSIS/Include/cmsis_version.h
 touchscreen_respawn_cm7\stm32h7xx_it.o: ../Drivers/CMSIS/Include/cmsis_compiler.h
 touchscreen_respawn_cm7\stm32h7xx_it.o: ../Drivers/CMSIS/Include/cmsis_armcc.h
@@ -15,8 +15,8 @@ touchscreen_respawn_cm7\stm32h7xx_it.o: ../Drivers/CMSIS/Include/mpu_armv7.h
 touchscreen_respawn_cm7\stm32h7xx_it.o: ../Drivers/CMSIS/Device/ST/STM32H7xx/Include/system_stm32h7xx.h
 touchscreen_respawn_cm7\stm32h7xx_it.o: ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h
 touchscreen_respawn_cm7\stm32h7xx_it.o: ../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h
-touchscreen_respawn_cm7\stm32h7xx_it.o: E:\Keil v5\ARM\ARMCC\Bin\..\include\stddef.h
-touchscreen_respawn_cm7\stm32h7xx_it.o: E:\Keil v5\ARM\ARMCC\Bin\..\include\math.h
+touchscreen_respawn_cm7\stm32h7xx_it.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+touchscreen_respawn_cm7\stm32h7xx_it.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\math.h
 touchscreen_respawn_cm7\stm32h7xx_it.o: ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc_ex.h
 touchscreen_respawn_cm7\stm32h7xx_it.o: ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio.h
 touchscreen_respawn_cm7\stm32h7xx_it.o: ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio_ex.h

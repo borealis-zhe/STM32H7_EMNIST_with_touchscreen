@@ -3,7 +3,7 @@
 <title>Static Call Graph - [TouchScreen_respawn_CM7\TouchScreen_respawn_CM7.axf]</title></head>
 <body><HR>
 <H1>Static Call Graph for image TouchScreen_respawn_CM7\TouchScreen_respawn_CM7.axf</H1><HR>
-<BR><P>#&#060CALLGRAPH&#062# ARM Linker, 5060528: Last Updated: Mon Jun 24 17:27:30 2024
+<BR><P>#&#060CALLGRAPH&#062# ARM Linker, 5060750: Last Updated: Sun Jun 08 00:28:02 2025
 <BR><P>
 <H3>Maximum Stack Usage =      23240 bytes + Unknown(Functions without stacksize, Cycles, Untraceable Function Pointers)</H3><H3>
 Call chain for Maximum Stack Depth:</H3>
@@ -1266,7 +1266,7 @@ Global Symbols
 </UL>
 
 <P><STRONG><a name="[121]"></a>BSP_TS_Init</STRONG> (Thumb, 166 bytes, Stack size 32 bytes, stm32h747i_discovery_ts.o(i.BSP_TS_Init))
-<BR><BR>[Stack]<UL><LI>Max Depth = 128<LI>Call Chain = BSP_TS_Init &rArr; FT6X06_Probe &rArr; FT6X06_ReadID &rArr; ft6x06_chip_id &rArr; ft6x06_read_reg
+<BR><BR>[Stack]<UL><LI>Max Depth = 136<LI>Call Chain = BSP_TS_Init &rArr; FT6X06_Probe &rArr; FT6X06_ReadID &rArr; ft6x06_chip_id &rArr; ft6x06_read_reg
 </UL>
 <BR>[Calls]<UL><LI><a href="#[122]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;FT6X06_Probe
 </UL>
@@ -1417,7 +1417,7 @@ Global Symbols
 <BR>[Address Reference Count : 1]<UL><LI> ft6x06.o(.data)
 </UL>
 <P><STRONG><a name="[1c]"></a>FT6X06_ReadID</STRONG> (Thumb, 20 bytes, Stack size 16 bytes, ft6x06.o(i.FT6X06_ReadID))
-<BR><BR>[Stack]<UL><LI>Max Depth = 24<LI>Call Chain = FT6X06_ReadID &rArr; ft6x06_chip_id &rArr; ft6x06_read_reg
+<BR><BR>[Stack]<UL><LI>Max Depth = 32<LI>Call Chain = FT6X06_ReadID &rArr; ft6x06_chip_id &rArr; ft6x06_read_reg
 </UL>
 <BR>[Calls]<UL><LI><a href="#[139]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ft6x06_chip_id
 </UL>
@@ -1709,8 +1709,6 @@ Global Symbols
 <LI><a href="#[184]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RCCEx_PLL3_Config
 <LI><a href="#[183]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RCCEx_PLL2_Config
 <LI><a href="#[17e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_QSPI_Init
-<LI><a href="#[170]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_MDMA_Init
-<LI><a href="#[146]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_DMA_Abort
 <LI><a href="#[129]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DSI_ShortWrite
 <LI><a href="#[143]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_DMA2D_PollForTransfer
 <LI><a href="#[15b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_I2C_Mem_Write
@@ -1720,6 +1718,8 @@ Global Symbols
 <LI><a href="#[157]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;I2C_WaitOnFlagUntilTimeout
 <LI><a href="#[1a7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;I2C_IsErrorOccurred
 <LI><a href="#[180]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;QSPI_WaitFlagStateUntilTimeout
+<LI><a href="#[170]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_MDMA_Init
+<LI><a href="#[146]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_DMA_Abort
 <LI><a href="#[1a4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;UART_WaitOnFlagUntilTimeout
 <LI><a href="#[1a2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;UART_CheckIdleState
 <LI><a href="#[120]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;IS42S32800J_Init
@@ -3402,8 +3402,8 @@ Global Symbols
 </UL>
 <BR>[Address Reference Count : 1]<UL><LI> _printf_char_file.o(.text)
 </UL>
-<P><STRONG><a name="[139]"></a>ft6x06_chip_id</STRONG> (Thumb, 10 bytes, Stack size 0 bytes, ft6x06_reg.o(i.ft6x06_chip_id))
-<BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = ft6x06_chip_id &rArr; ft6x06_read_reg
+<P><STRONG><a name="[139]"></a>ft6x06_chip_id</STRONG> (Thumb, 24 bytes, Stack size 8 bytes, ft6x06_reg.o(i.ft6x06_chip_id))
+<BR><BR>[Stack]<UL><LI>Max Depth = 16<LI>Call Chain = ft6x06_chip_id &rArr; ft6x06_read_reg
 </UL>
 <BR>[Calls]<UL><LI><a href="#[137]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ft6x06_read_reg
 </UL>
@@ -4172,7 +4172,7 @@ Local Symbols
 </UL>
 
 <P><STRONG><a name="[122]"></a>FT6X06_Probe</STRONG> (Thumb, 132 bytes, Stack size 72 bytes, stm32h747i_discovery_ts.o(i.FT6X06_Probe))
-<BR><BR>[Stack]<UL><LI>Max Depth = 96<LI>Call Chain = FT6X06_Probe &rArr; FT6X06_ReadID &rArr; ft6x06_chip_id &rArr; ft6x06_read_reg
+<BR><BR>[Stack]<UL><LI>Max Depth = 104<LI>Call Chain = FT6X06_Probe &rArr; FT6X06_ReadID &rArr; ft6x06_chip_id &rArr; ft6x06_read_reg
 </UL>
 <BR>[Calls]<UL><LI><a href="#[138]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;FT6X06_RegisterBusIO
 <LI><a href="#[1c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;FT6X06_ReadID

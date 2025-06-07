@@ -1,13 +1,13 @@
 touchscreen_respawn_cm7\app_x-cube-ai.o: ../CM7/X-CUBE-AI/App/app_x-cube-ai.c
-touchscreen_respawn_cm7\app_x-cube-ai.o: E:\Keil v5\ARM\ARMCC\Bin\..\include\stdint.h
-touchscreen_respawn_cm7\app_x-cube-ai.o: E:\Keil v5\ARM\ARMCC\Bin\..\include\stdlib.h
-touchscreen_respawn_cm7\app_x-cube-ai.o: E:\Keil v5\ARM\ARMCC\Bin\..\include\stdio.h
-touchscreen_respawn_cm7\app_x-cube-ai.o: E:\Keil v5\ARM\ARMCC\Bin\..\include\inttypes.h
-touchscreen_respawn_cm7\app_x-cube-ai.o: E:\Keil v5\ARM\ARMCC\Bin\..\include\string.h
+touchscreen_respawn_cm7\app_x-cube-ai.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+touchscreen_respawn_cm7\app_x-cube-ai.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+touchscreen_respawn_cm7\app_x-cube-ai.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+touchscreen_respawn_cm7\app_x-cube-ai.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\inttypes.h
+touchscreen_respawn_cm7\app_x-cube-ai.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
 touchscreen_respawn_cm7\app_x-cube-ai.o: ../CM7/X-CUBE-AI/App/app_x-cube-ai.h
 touchscreen_respawn_cm7\app_x-cube-ai.o: ../Middlewares/ST/AI/Inc/ai_platform.h
-touchscreen_respawn_cm7\app_x-cube-ai.o: E:\Keil v5\ARM\ARMCC\Bin\..\include\stddef.h
-touchscreen_respawn_cm7\app_x-cube-ai.o: E:\Keil v5\ARM\ARMCC\Bin\..\include\stdbool.h
+touchscreen_respawn_cm7\app_x-cube-ai.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+touchscreen_respawn_cm7\app_x-cube-ai.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
 touchscreen_respawn_cm7\app_x-cube-ai.o: ../CM7/Core/Inc/main.h
 touchscreen_respawn_cm7\app_x-cube-ai.o: ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h
 touchscreen_respawn_cm7\app_x-cube-ai.o: ../CM7/Core/Inc/stm32h7xx_hal_conf.h
@@ -23,7 +23,7 @@ touchscreen_respawn_cm7\app_x-cube-ai.o: ../Drivers/CMSIS/Include/mpu_armv7.h
 touchscreen_respawn_cm7\app_x-cube-ai.o: ../Drivers/CMSIS/Device/ST/STM32H7xx/Include/system_stm32h7xx.h
 touchscreen_respawn_cm7\app_x-cube-ai.o: ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h
 touchscreen_respawn_cm7\app_x-cube-ai.o: ../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h
-touchscreen_respawn_cm7\app_x-cube-ai.o: E:\Keil v5\ARM\ARMCC\Bin\..\include\math.h
+touchscreen_respawn_cm7\app_x-cube-ai.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\math.h
 touchscreen_respawn_cm7\app_x-cube-ai.o: ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc_ex.h
 touchscreen_respawn_cm7\app_x-cube-ai.o: ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio.h
 touchscreen_respawn_cm7\app_x-cube-ai.o: ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio_ex.h

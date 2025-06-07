@@ -8,7 +8,7 @@ touchscreen_respawn_cm7\stm32h747i_discovery_bus.o: ../Drivers/STM32H7xx_HAL_Dri
 touchscreen_respawn_cm7\stm32h747i_discovery_bus.o: ../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h7xx.h
 touchscreen_respawn_cm7\stm32h747i_discovery_bus.o: ../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h747xx.h
 touchscreen_respawn_cm7\stm32h747i_discovery_bus.o: ../Drivers/CMSIS/Include/core_cm7.h
-touchscreen_respawn_cm7\stm32h747i_discovery_bus.o: E:\Keil v5\ARM\ARMCC\Bin\..\include\stdint.h
+touchscreen_respawn_cm7\stm32h747i_discovery_bus.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
 touchscreen_respawn_cm7\stm32h747i_discovery_bus.o: ../Drivers/CMSIS/Include/cmsis_version.h
 touchscreen_respawn_cm7\stm32h747i_discovery_bus.o: ../Drivers/CMSIS/Include/cmsis_compiler.h
 touchscreen_respawn_cm7\stm32h747i_discovery_bus.o: ../Drivers/CMSIS/Include/cmsis_armcc.h
@@ -16,8 +16,8 @@ touchscreen_respawn_cm7\stm32h747i_discovery_bus.o: ../Drivers/CMSIS/Include/mpu
 touchscreen_respawn_cm7\stm32h747i_discovery_bus.o: ../Drivers/CMSIS/Device/ST/STM32H7xx/Include/system_stm32h7xx.h
 touchscreen_respawn_cm7\stm32h747i_discovery_bus.o: ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h
 touchscreen_respawn_cm7\stm32h747i_discovery_bus.o: ../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h
-touchscreen_respawn_cm7\stm32h747i_discovery_bus.o: E:\Keil v5\ARM\ARMCC\Bin\..\include\stddef.h
-touchscreen_respawn_cm7\stm32h747i_discovery_bus.o: E:\Keil v5\ARM\ARMCC\Bin\..\include\math.h
+touchscreen_respawn_cm7\stm32h747i_discovery_bus.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+touchscreen_respawn_cm7\stm32h747i_discovery_bus.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\math.h
 touchscreen_respawn_cm7\stm32h747i_discovery_bus.o: ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc_ex.h
 touchscreen_respawn_cm7\stm32h747i_discovery_bus.o: ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio.h
 touchscreen_respawn_cm7\stm32h747i_discovery_bus.o: ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio_ex.h
