@@ -9,7 +9,7 @@ I (../Middlewares/ST/AI/Inc/ai_platform.h)(0x665EF435)
 F (../CM7/X-CUBE-AI/App/network_data.c)(0x6844685E)()
 F (../CM7/X-CUBE-AI/App/network_data_params.c)(0x6844685E)()
 F (../CM7/X-CUBE-AI/App/app_x-cube-ai.c)(0x6844685E)()
-F (../CM7/Core/Src/main.c)(0x6844685E)()
+F (../CM7/Core/Src/main.c)(0x684E2EDB)()
 F (../CM7/Core/Src/gpio.c)(0x6844685E)()
 F (../CM7/Core/Src/crc.c)(0x6844685E)(--c99 -c --cpu Cortex-M4.fp -g -O3 --apcs=interwork --split_sections -I ../CM4/Core/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I ../Drivers/CMSIS/Include-I.\RTE\_TouchScreen_respawn_CM4-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-D__UVISION_VERSION="525" -D_RTE_ -DCORE_CM4 -DSTM32H747xx -DCORE_CM4 -DUSE_HAL_DRIVER -DSTM32H747xx-o touchscreen_respawn_cm4\crc.o --depend touchscreen_respawn_cm4\crc.d)
 F (../CM7/Core/Src/dma2d.c)(0x6844685E)()
