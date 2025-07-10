@@ -7,7 +7,7 @@ touchscreen_respawn_cm7\main.o: ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ha
 touchscreen_respawn_cm7\main.o: ../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h7xx.h
 touchscreen_respawn_cm7\main.o: ../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h747xx.h
 touchscreen_respawn_cm7\main.o: ../Drivers/CMSIS/Include/core_cm7.h
-touchscreen_respawn_cm7\main.o: E:\Keil v5\ARM\ARMCC\Bin\..\include\stdint.h
+touchscreen_respawn_cm7\main.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
 touchscreen_respawn_cm7\main.o: ../Drivers/CMSIS/Include/cmsis_version.h
 touchscreen_respawn_cm7\main.o: ../Drivers/CMSIS/Include/cmsis_compiler.h
 touchscreen_respawn_cm7\main.o: ../Drivers/CMSIS/Include/cmsis_armcc.h
@@ -15,8 +15,8 @@ touchscreen_respawn_cm7\main.o: ../Drivers/CMSIS/Include/mpu_armv7.h
 touchscreen_respawn_cm7\main.o: ../Drivers/CMSIS/Device/ST/STM32H7xx/Include/system_stm32h7xx.h
 touchscreen_respawn_cm7\main.o: ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h
 touchscreen_respawn_cm7\main.o: ../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h
-touchscreen_respawn_cm7\main.o: E:\Keil v5\ARM\ARMCC\Bin\..\include\stddef.h
-touchscreen_respawn_cm7\main.o: E:\Keil v5\ARM\ARMCC\Bin\..\include\math.h
+touchscreen_respawn_cm7\main.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+touchscreen_respawn_cm7\main.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\math.h
 touchscreen_respawn_cm7\main.o: ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc_ex.h
 touchscreen_respawn_cm7\main.o: ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio.h
 touchscreen_respawn_cm7\main.o: ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio_ex.h
@@ -51,9 +51,9 @@ touchscreen_respawn_cm7\main.o: ../CM7/Core/Inc/gpio.h
 touchscreen_respawn_cm7\main.o: ../CM7/Core/Inc/fmc.h
 touchscreen_respawn_cm7\main.o: ../CM7/X-CUBE-AI/App/app_x-cube-ai.h
 touchscreen_respawn_cm7\main.o: ../Middlewares/ST/AI/Inc/ai_platform.h
-touchscreen_respawn_cm7\main.o: E:\Keil v5\ARM\ARMCC\Bin\..\include\inttypes.h
-touchscreen_respawn_cm7\main.o: E:\Keil v5\ARM\ARMCC\Bin\..\include\stdbool.h
-touchscreen_respawn_cm7\main.o: E:\Keil v5\ARM\ARMCC\Bin\..\include\stdio.h
+touchscreen_respawn_cm7\main.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\inttypes.h
+touchscreen_respawn_cm7\main.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
+touchscreen_respawn_cm7\main.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
 touchscreen_respawn_cm7\main.o: ../Drivers/BSP/STM32H747I-DISCO/stm32h747i_discovery.h
 touchscreen_respawn_cm7\main.o: ../Drivers/BSP/STM32H747I-DISCO/stm32h747i_discovery_conf.h
 touchscreen_respawn_cm7\main.o: ../Drivers/BSP/STM32H747I-DISCO/stm32h747i_discovery_errno.h

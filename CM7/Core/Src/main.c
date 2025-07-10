@@ -298,7 +298,6 @@ Error_Handler();
   hTS->Orientation = TS_SWAP_XY | TS_SWAP_Y;
   hTS->Accuracy = 0;
 	ts_status = BSP_TS_Init(0, hTS);
-	printf("lcd test\r\n");
   if(ts_status == BSP_ERROR_NONE)
   {
     /* Display touch screen demo description */
@@ -323,20 +322,17 @@ Error_Handler();
 	Tx_buf_len = sprintf(Tx_buf, "\r\n\r\nSTM32 X-Cube-AI test\r\n");
 	HAL_UART_Transmit(&huart1, (uint8_t *)Tx_buf, Tx_buf_len, 100);
 
-	ai_u8 activations[AI_NETWORK_DATA_ACTIVATIONS_SIZE+8192];//+8192是为了避免内存错误，详见课程报告
+	ai_u8 activations[AI_NETWORK_DATA_ACTIVATIONS_SIZE+8192];
 	
 	 /* AI buffer IO handlers */
 	ai_buffer *ai_input;
 	ai_buffer *ai_output;
-
 	ai_handle network = AI_HANDLE_NULL;
-
 	ai_error err;
 	ai_network_report report;
 
 	/** @brief Initialize network */
 	const ai_handle acts[] = { activations };
-
 	err = ai_network_create_and_init(&network, acts, NULL);
 	if (err.type != AI_ERROR_NONE) {
 		Tx_buf_len = sprintf(Tx_buf, "Error: could not create NN instance\r\n");
@@ -418,6 +414,7 @@ Error_Handler();
 				}
 
 				UTIL_LCD_FillRect(400,380,300,30,UTIL_LCD_COLOR_ST_BLUE);
+								UTIL_LCD_FillRect(400,400,350,30,UTIL_LCD_COLOR_ST_BLUE);
 				//UTIL_LCD_DisplayStringAt(400,380,(uint8_t*)"                      ", LEFT_MODE);
 				HAL_DSI_Refresh(&hlcd_dsi);
 				printf("cleared\r\n");
@@ -469,10 +466,14 @@ Error_Handler();
 				else
 					my_result[0] = 'A' + (char)(max_index-10);
 			
-				printf("%s",my_result);
+				printf("The result is %s \r\n",my_result);
+				char buffer_my_max[20];
+				snprintf(buffer_my_max, sizeof(buffer_my_max), "%.2f", my_max);
 				UTIL_LCD_SetFont(&Font24);
 				UTIL_LCD_DisplayStringAt(400,380,(uint8_t*)"the result is: ", LEFT_MODE);
 				UTIL_LCD_DisplayStringAt(650,380,(uint8_t*)my_result, LEFT_MODE);
+				UTIL_LCD_DisplayStringAt(400,400,(uint8_t*)"the probability is: ", LEFT_MODE);
+        UTIL_LCD_DisplayStringAt(650,400,(uint8_t*) buffer_my_max, LEFT_MODE);
 				HAL_DSI_Refresh(&hlcd_dsi);
 				HAL_Delay(1000);
 			}				
@@ -858,7 +859,7 @@ static void LCD_BriefDisplay(void)
   UTIL_LCD_SetTextColor(UTIL_LCD_COLOR_YELLOW);
   UTIL_LCD_SetBackColor(UTIL_LCD_COLOR_ST_BLUE);
   UTIL_LCD_DisplayStringAt(0,50, (uint8_t *)"   This is the Cube-X-AI homework",CENTER_MODE);
-	UTIL_LCD_DisplayStringAt(0,80, (uint8_t *)"   accomplished by Cheng Zhe alone",CENTER_MODE);
+	UTIL_LCD_DisplayStringAt(0,80, (uint8_t *)"   accomplished by zaq lgk lcx",CENTER_MODE);
 	
 	UTIL_LCD_SetFont(&Font20);
 	UTIL_LCD_DisplayStringAt(60,120, (uint8_t *)"Draw a number here!",LEFT_MODE);

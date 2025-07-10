@@ -1,12 +1,12 @@
 --cpu=Cortex-M4.fp
 "touchscreen_respawn_cm4\startup_stm32h747xx_cm4.o"
-"touchscreen_respawn_cm4\main_1.o"
-"touchscreen_respawn_cm4\gpio_1.o"
+"touchscreen_respawn_cm4\main.o"
+"touchscreen_respawn_cm4\gpio.o"
 "touchscreen_respawn_cm4\rtc.o"
 "touchscreen_respawn_cm4\tim.o"
-"touchscreen_respawn_cm4\usart_1.o"
-"touchscreen_respawn_cm4\stm32h7xx_it_1.o"
-"touchscreen_respawn_cm4\stm32h7xx_hal_msp_1.o"
+"touchscreen_respawn_cm4\usart.o"
+"touchscreen_respawn_cm4\stm32h7xx_it.o"
+"touchscreen_respawn_cm4\stm32h7xx_hal_msp.o"
 "touchscreen_respawn_cm4\stm32h7xx_hal_cortex.o"
 "touchscreen_respawn_cm4\stm32h7xx_hal_rcc.o"
 "touchscreen_respawn_cm4\stm32h7xx_hal_rcc_ex.o"
@@ -30,6 +30,7 @@
 "touchscreen_respawn_cm4\stm32h7xx_hal_rtc.o"
 "touchscreen_respawn_cm4\stm32h7xx_hal_rtc_ex.o"
 "touchscreen_respawn_cm4\system_stm32h7xx_dualcore_boot_cm4_cm7.o"
+"touchscreen_respawn_cm4\stm32_lcd.o"
 --strict --scatter "stm32h747xx_flash_CM4.sct"
 --summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
 --info sizes --info totals --info unused --info veneers

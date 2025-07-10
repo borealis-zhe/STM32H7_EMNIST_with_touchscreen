@@ -1308,12 +1308,11 @@ ARM Macro Assembler    Page 21
               00000000 
 Command Line: --debug --xref --diag_suppress=9931 --cpu=Cortex-M7.fp.dp --apcs=
 interwork --depend=touchscreen_respawn_cm7\startup_stm32h747xx_cm7.d -otouchscr
-een_respawn_cm7\startup_stm32h747xx_cm7.o -I.\RTE\_TouchScreen_respawn_CM7 -I"E
-:\Keil v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include" -I"E:\Keil v5\ARM\PACK\Keil\S
-TM32H7xx_DFP\3.1.1\Drivers\CMSIS\Device\ST\STM32H7xx\Include" --predefine="__UV
-ISION_VERSION SETA 524" --predefine="_RTE_ SETA 1" --predefine="CORE_CM7 SETA 1
-" --predefine="STM32H747xx SETA 1" --list=startup_stm32h747xx_cm7.lst startup_s
-tm32h747xx_CM7.s
+een_respawn_cm7\startup_stm32h747xx_cm7.o -I.\RTE\_TouchScreen_respawn_CM7 -IC:
+\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include --predefine="__UVISION_VERSION 
+SETA 525" --predefine="_RTE_ SETA 1" --predefine="CORE_CM7 SETA 1" --predefine=
+"STM32H747xx SETA 1" --list=startup_stm32h747xx_cm7.lst startup_stm32h747xx_CM7
+.s
 
 
 
